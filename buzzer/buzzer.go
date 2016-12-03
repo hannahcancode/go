@@ -17,7 +17,7 @@ func main() {
 
 	// initialise and assign components
 
-	buzzer := gpio.NewBuzzerDriver(firmataAdaptor, "buzzer", 9)
+	buzzer := gpio.NewBuzzerDriver(firmataAdaptor, "buzzer", "9")
 
 	work := func() {
 
